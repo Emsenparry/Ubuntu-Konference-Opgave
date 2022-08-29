@@ -1,0 +1,17 @@
+Brugeren kommer ind på landing page (forsiden). 
+På forsiden mødes de af en CTA button hvor man kan tilmelde sig. 
+
+Hvis de vælger at tilmelde sig med det samme eller komme tilbage til knappen, så kommer de over på Tilmeldings siden
+efter de har trykket på den, hvor brugeren derefter kan indtaste data. Når brugeren trykker på submit knappen, 
+valideres data og hvis dataen er korrekt, kommer der tekst frem. Hvis dataen er forkert så kommer der en error frem.
+
+Hvis brugeren vælger at ignorer tilmeldingsknappen, så mødes de længere nede ved en interest form hvor de kan vælge enten, 
+at skrive deres navn og email eller ignorere denne form. Hvis de vælger at indtaste data, så bliver det valideret efter om
+det er korrekt eller forkert. Hvis korrekt, så gives der feedback og formen forsvinder. Hvis data er forkert, gives der 
+en error. 
+
+Når brugeren er på forsiden, så kan de vælge oppe i navigationen at komme over på en ny side som hedder 'Program'. 
+Derinde mødes de af nogle cards der indeholder billede, tekst og link. Hvis brugeren vælger at trykke på linket, bliver de
+ført over til en nye side som hedder 'Event-info' hvor der bliver vist flere detaljer omkring dette.
+
+Hvis brugeren gerne vil tilbage til forsiden eller til Tilmelding/Program, kan de gøre det ved hjælp af navigationen. 

@@ -1,0 +1,18 @@
+Mixins til:
+
+Icon Links --> Størrelser (imgSize), placering (flex/grid)
+
+Event Info --> Størrelser (Font size, imgSize), colors, placering, font-family. 
+
+Cards under Program --> Grid, størrelser(Font size, imgSize), colors, text-decoration, font-family. 
+
+Nyhedsbokse --> Placering (Grid/Flex), colors, størrelser (Font-size, imgSize).
+
+
+
+
+Parcials til: 
+- Tilmelding (Selve formen på Tilmeldings siden)
+- Colors (Farve variabler som kan bruges i scss senere)
+- Fonte (Importer fonte fra GoogleFonts)
+- Nav + Footer. (Lav scss for både Nav og footer i samme parcial så der ikke bliver så meget kode i stylesheetet)
