@@ -15,4 +15,6 @@ Parcials til:
 - Tilmelding (Selve formen på Tilmeldings siden)
 - Colors (Farve variabler som kan bruges i scss senere)
 - Fonte (Importer fonte fra GoogleFonts)
+- Ikon sektionen. (Sektionen med ikonerne)
+- Nyhedsbokse (Med en mixin i)
 - Nav + Footer. (Lav scss for både Nav og footer i samme parcial så der ikke bliver så meget kode i stylesheetet)

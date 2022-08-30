@@ -1,0 +1,24 @@
+@use "colors" as c;
+
+@mixin navbar {
+  .main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: c.$N-cool-grey;
+    padding: 1.3em 0;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.57);
+    img{
+        width: 10rem;
+    }
+    nav{
+        a{
+            margin: 0 1.2em;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Bold;
+            color: c.$P-white;
+        }
+    }
+}  
+}

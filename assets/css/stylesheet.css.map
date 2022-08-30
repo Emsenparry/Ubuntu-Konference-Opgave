@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"stylesheet.css"}
+{"version":3,"sourceRoot":"","sources":["_navandfooter.scss","_colors.scss"],"names":[],"mappings":"AAGE;EACE;EACA;EACA;EACA,kBCKU;EDJV;EACA;;AACA;EACI;;AAGA;EACI;EACA;EACA;EACA;EACA,OCjBF","file":"stylesheet.css"}
