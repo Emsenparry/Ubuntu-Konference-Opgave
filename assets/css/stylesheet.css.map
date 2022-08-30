@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["_navandfooter.scss","_colors.scss"],"names":[],"mappings":"AAGE;EACE;EACA;EACA;EACA,kBCKU;EDJV;EACA;;AACA;EACI;;AAGA;EACI;EACA;EACA;EACA;EACA,OCjBF","file":"stylesheet.css"}
+{"version":3,"sourceRoot":"","sources":["stylesheet.scss","_navandfooter.scss","_colors.scss"],"names":[],"mappings":"AAGA;ECAI;EACA;EACA;EACA,kBCMU;EDLV;EACA;;AACA;EACI;;AAGA;EACI;EACA;EACA;EACA;EACA,OChBF","file":"stylesheet.css"}
