@@ -1,7 +1,6 @@
-@use "colors" as c;
+@use "colors";
 
 @mixin navbar {
-  .main-header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,4 +20,3 @@
         }
     }
 }  
-}
