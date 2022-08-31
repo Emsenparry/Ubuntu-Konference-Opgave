@@ -1,0 +1,19 @@
+@use "colors" as c;
+@use "fonts";
+
+@mixin bokse {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3em 1em;
+    margin: 1em;
+    font-family: 'Ubunta', sans-serif;
+    div{
+        background-color: c.$N-cool-grey;
+    }
+    h2{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+}

@@ -38,21 +38,49 @@
   position: absolute;
   top: 10em;
   left: 15em;
+  font-family: "Ubunta", sans-serif;
 }
 .section-one div h2 {
   font-size: 4vw;
+  color: #FFFFFF;
 }
 .section-one div p {
   font-size: 2vw;
+  color: #FFFFFF;
 }
 .section-one div button {
-  font-size: 1.25em;
-  font-family: "Ubunta", sans-serif;
+  background-color: #0e8420;
   border: 0px;
+  font-size: 1em;
   border-radius: 3px;
-  padding: 0.3em 0.7em;
+  padding: 0.5em 1em;
   margin: 2em 0 0 0;
+}
+.section-one div button:hover {
+  background-color: #0d771d;
+}
+.section-one div button a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #FFFFFF;
 }
 .section-one img {
   width: 100%;
+}
+
+.nyhedsbokse {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3em 1em;
+  margin: 1em;
+  font-family: "Ubunta", sans-serif;
+}
+.nyhedsbokse div {
+  background-color: #333333;
+}
+.nyhedsbokse h2 {
+  font-size: 2vw;
+}
+.nyhedsbokse p {
+  font-size: 1vw;
 }/*# sourceMappingURL=stylesheet.css.map */
