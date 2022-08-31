@@ -1,5 +1,7 @@
 Mixins til:
 
+Section one --> Font-size, font-family, placering (Flex), colors.
+
 Icon Links --> Størrelser (imgSize), placering (flex/grid)
 
 Event Info --> Størrelser (Font size, imgSize), colors, placering, font-family. 
@@ -12,6 +14,7 @@ Nyhedsbokse --> Placering (Grid/Flex), colors, størrelser (Font-size, imgSize).
 
 
 Parcials til: 
+- Sections
 - Tilmelding (Selve formen på Tilmeldings siden)
 - Colors (Farve variabler som kan bruges i scss senere)
 - Fonte (Importer fonte fra GoogleFonts)

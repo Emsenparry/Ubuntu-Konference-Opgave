@@ -1,4 +1,5 @@
 @use "navandfooter";
+@use "sections";
 @use "colors";
 
 *{
@@ -8,4 +9,8 @@
 
 .main-header{
     @include navandfooter.navbar;
+}
+
+.section-one{
+    @include sections.sect-one;
 }

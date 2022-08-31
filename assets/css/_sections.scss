@@ -1,0 +1,32 @@
+@use "colors" as c;
+
+
+
+@mixin sect-one {
+    position: relative;
+    div{
+        position: absolute;
+        top: 10em;
+        left: 15em;
+        h2{
+            font-size: 4vw;
+        }
+        p{
+            font-size: 2vw;
+        }
+        button{
+            // background-color: c.$pri-cross-red;
+            font-size: 1.25em;
+            // font-family: bold;
+            // color: c.$pri-white;
+            border: 0px;
+            border-radius: 3px;
+            padding: 0.5em 1.3em;
+            margin: 2em 0 0 0;
+
+        }
+    }
+    img{
+        width: 100%;
+    }
+}

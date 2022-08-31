@@ -29,4 +29,29 @@
 .main-header nav a:hover {
   background-color: #111111;
   text-decoration: underline;
+}
+
+.section-one {
+  position: relative;
+}
+.section-one div {
+  position: absolute;
+  top: 10em;
+  left: 15em;
+}
+.section-one div h2 {
+  font-size: 4vw;
+}
+.section-one div p {
+  font-size: 2vw;
+}
+.section-one div button {
+  font-size: 1.25em;
+  border: 0px;
+  border-radius: 3px;
+  padding: 0.5em 1.3em;
+  margin: 2em 0 0 0;
+}
+.section-one img {
+  width: 100%;
 }/*# sourceMappingURL=stylesheet.css.map */

@@ -22,10 +22,11 @@
             color: c.$P-white;
             padding: 0.8em 0.3em;
             display: inline-block;
-        }
-        a:hover{
+            &:hover{
             background-color: c.$N-text-grey;
             text-decoration: underline;
         }
+        }
+        
     }
 }  
