@@ -47,9 +47,10 @@
 }
 .section-one div button {
   font-size: 1.25em;
+  font-family: "Ubunta", sans-serif;
   border: 0px;
   border-radius: 3px;
-  padding: 0.5em 1.3em;
+  padding: 0.3em 0.7em;
   margin: 2em 0 0 0;
 }
 .section-one img {

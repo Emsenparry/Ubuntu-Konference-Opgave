@@ -1,5 +1,5 @@
 @use "colors" as c;
-
+@use "fonts";
 
 
 @mixin sect-one {
@@ -15,13 +15,13 @@
             font-size: 2vw;
         }
         button{
-            // background-color: c.$pri-cross-red;
+            // background-color: ;
             font-size: 1.25em;
-            // font-family: bold;
-            // color: c.$pri-white;
+            font-family: 'Ubunta', sans-serif;
+            // color: ;
             border: 0px;
             border-radius: 3px;
-            padding: 0.5em 1.3em;
+            padding: 0.3em 0.7em;
             margin: 2em 0 0 0;
 
         }
