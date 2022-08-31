@@ -1,6 +1,11 @@
 @use "navandfooter";
 @use "colors";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .main-header{
     @include navandfooter.navbar;
 }
