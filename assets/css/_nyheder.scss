@@ -4,16 +4,25 @@
 @mixin bokse {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 3em 1em;
+    gap: 3em 2em;
     margin: 1em;
     font-family: 'Ubunta', sans-serif;
+    margin-top: 3em;
     div{
         background-color: c.$N-cool-grey;
     }
     h2{
         font-size: 2vw;
+        color: c.$P-white;
+        margin-left: 0.5em;
+        margin-bottom: 0.5em;
     }
     p{
         font-size: 1vw;
+        margin: 1em;
+        color: c.$P-white;
+    }
+    img{
+        width: 100%;
     }
 }

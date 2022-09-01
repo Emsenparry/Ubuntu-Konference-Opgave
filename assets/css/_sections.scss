@@ -9,13 +9,14 @@
         top: 10em;
         left: 15em;
         font-family: 'Ubunta', sans-serif;
+        z-index: 1;
         h2{
             font-size: 4vw;
-            color: c.$P-white;
+            color: c.$P-black;
         }
         p{
             font-size: 2vw;
-            color: c.$P-white;
+            color: c.$P-black;
         }
         button{
             background-color: #0e8420;
@@ -36,5 +37,6 @@
     }
     img{
         width: 100%;
+        opacity: 75%;
     }
 }

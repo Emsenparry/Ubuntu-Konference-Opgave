@@ -39,14 +39,15 @@
   top: 10em;
   left: 15em;
   font-family: "Ubunta", sans-serif;
+  z-index: 1;
 }
 .section-one div h2 {
   font-size: 4vw;
-  color: #FFFFFF;
+  color: #000000;
 }
 .section-one div p {
   font-size: 2vw;
-  color: #FFFFFF;
+  color: #000000;
 }
 .section-one div button {
   background-color: #0e8420;
@@ -66,21 +67,31 @@
 }
 .section-one img {
   width: 100%;
+  opacity: 75%;
 }
 
-.nyhedsbokse {
+#nyhedsbokse {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 3em 1em;
+  gap: 3em 2em;
   margin: 1em;
   font-family: "Ubunta", sans-serif;
+  margin-top: 3em;
 }
-.nyhedsbokse div {
+#nyhedsbokse div {
   background-color: #333333;
 }
-.nyhedsbokse h2 {
+#nyhedsbokse h2 {
   font-size: 2vw;
+  color: #FFFFFF;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
-.nyhedsbokse p {
+#nyhedsbokse p {
   font-size: 1vw;
+  margin: 1em;
+  color: #FFFFFF;
+}
+#nyhedsbokse img {
+  width: 100%;
 }/*# sourceMappingURL=stylesheet.css.map */
