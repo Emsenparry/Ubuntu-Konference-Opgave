@@ -1,0 +1,17 @@
+@use "colors" as c;
+@use "fonts";
+
+@mixin icons {
+    div{
+        display: flex;
+        justify-content: center;
+        a{
+            width: 15%;
+            img{
+        width: 100%;
+            } 
+        }
+       
+    }
+    
+}

@@ -96,7 +96,14 @@
   width: 100%;
 }
 
+.interest-form form {
+  background-color: #111111;
+  width: 98%;
+  margin: 0 0 0 1em;
+  padding: 2em 0;
+}
 .interest-form form input, .interest-form form button {
+  font-size: 1.2em;
   display: flex;
   margin-top: 1em;
   margin-left: 1em;
@@ -110,5 +117,16 @@
   color: #FFFFFF;
   border: none;
   text-align: center;
-  padding-left: 1em;
+  padding-left: 0.6em;
+}
+
+.icons div {
+  display: flex;
+  justify-content: center;
+}
+.icons div a {
+  width: 15%;
+}
+.icons div a img {
+  width: 100%;
 }/*# sourceMappingURL=stylesheet.css.map */

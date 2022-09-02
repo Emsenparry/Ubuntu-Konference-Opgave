@@ -1,6 +1,7 @@
 @use "navandfooter";
 @use "nyheder";
 @use "sections";
+@use "icons";
 @use "colors" as c;
 
 *{
@@ -22,7 +23,12 @@
 
 .interest-form{
     form{
+        background-color: c.$N-text-grey;
+        width: 98%;
+        margin: 0 0 0 1em;
+        padding: 2em 0;
         input, button{
+            font-size: 1.2em;
             display: flex;
             margin-top: 1em;
             margin-left: 1em;
@@ -36,7 +42,11 @@
             color: c.$P-white;
             border: none;
             text-align: center;
-            padding-left: 1em;
+            padding-left: 0.6em;
         }
     }
+}
+
+.icons{
+    @include icons.icons;
 }
