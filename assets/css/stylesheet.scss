@@ -1,7 +1,7 @@
 @use "navandfooter";
 @use "nyheder";
 @use "sections";
-@use "colors";
+@use "colors" as c;
 
 *{
     margin: 0;
@@ -18,4 +18,25 @@
 
 #nyhedsbokse{
     @include nyheder.bokse;
+}
+
+.interest-form{
+    form{
+        input, button{
+            display: flex;
+            margin-top: 1em;
+            margin-left: 1em;
+            border-radius: 2px;
+            border-width: 1px;
+            padding: 5.4px 16px 5.4px 6px;
+            font-family: 'Ubunta', sans-serif;
+        }
+        button{
+            background-color: #0e8420;
+            color: c.$P-white;
+            border: none;
+            text-align: center;
+            padding-left: 1em;
+        }
+    }
 }
